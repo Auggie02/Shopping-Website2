@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A & A</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body onload="loadProfileData()">
+    <script src="script.js"></script>
+    <nav class="navbar"> 
+        <div class="logo"><img src="#">A & A Production</div>
+        <div class="nav-content">
+            <div class="left-nav">
+            <ul><li><a onclick="handleclick('home');">Home</a></li>
+                <li><a onclick="handleclick('profile');">Profile</a></li>
+                <li><a onclick="handleclick('cart');">Cart</a></li>
+                <li><a onclick="handleclick('subscribe');">Subscripton</a></li></ul>
+            </div>
+        <div class="right-nav">
+            <button class="Login-btn">Login</button>
+        </div></div>
+    </nav>
+    <div id='home' class="active" >
+    <div class="section1">
+        <div class="large-img"></div>
+        <div class="small-text"> 
+            <div class="circle c1"></div>
+            <div class="circle c2"></div>
+            <div class="circle c3"></div>
+            <div class="circle c4"></div>
+            <div class="circle c5"></div>
+    </div>
+    </div>
+    <hr>
+    <div class="page">
+    <div class="section2">
+        <div class="small-text">New Arrivals</div>
+        <div class="large-img"></div>
+    </div></div>
+    <hr>
+    <div class="page">
+    <div class="section3">
+        <div class="card c1">
+            <div class="img"></div>
+            <a class="description" href="#"> New Mens Bomber Jackets</a>
+        </div>
+        <div class="card c2">
+            <div class="img"></div>
+            <a class="description" href="#">Mens Summer Tshirt</a>
+        </div>
+        <div class="card c3">
+            <div class="img"></div>
+            <a class="description" href="#">Women Ripped Jeans</a>
+        </div>
+        <div class="card c4">
+            <div class="img"></div>
+            <a class="description" href="#">Women Cosmetics</a>
+        </div>
+    </div>
+    <div class="section4">
+        <div class="card c1">
+            <div class="img"></div>
+            <a class="description" href="#"> Mens Summer Collection</a>
+        </div>
+        <div class="card c2">
+            <div class="img"></div>
+            <a class="description" href="#">Gym Wears</a>
+        </div>
+        <div class="card c3">
+            <div class="img"></div>
+            <a class="description" href="#">Mens Jeans</a>
+        </div>
+        <div class="card c4">
+            <div class="img"></div>
+            <a class="description" href="#">Women Cosmetics</a>
+        </div>
+    </div>
+    </div>
+    <div class="page">
+        <div class="section5">
+            <div class="s"> </div>
+            <div class="l"></div>
+        </div></div>
+    </div>
+    <div id='profile' class="passive" >
+        <div class="section1" >
+        <img class="profile-img" src="6.jpg"></img>
+        <input type="file" name="img-input" id="img-input" onchange="changepic('img-input')">
+           <div id="info" > <table>
+                <tr>
+                    <td>Name:</td>
+                    <td id="Name"></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td id="Age"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td id="Gender"></td>
+                </tr>
+                <tr>
+                    <td>Phone No.</td>
+                    <td id="Phone"></td>
+                </tr>
+                    <td>Email:</td>
+                    <td id="Email"></td>
+                <tr>
+                    <td>DOB:</td>
+                    <td id="Dob"></td>
+                </tr><button id="EditProf" class="edit" onclick="handleProfile()"></button>
+            </table></div>
+        </div>
+    </div >
+    <div id='cart' class="passive">
+        <div class="section1">
+        <div class="" >
+
+        </div></div>
+    </div>
+    <hr>
+        <div class="contactus">
+            <div class="s1">About Us <br><br><br><br>
+                Get to Know us <br><br>
+                Career <br><br>
+                Press Release 
+            </div>
+
+            <div class="s2">Conatct Us: <br><br> <br><br>
+            <input type="text" class="contact" placeholder="Type your query here"><br><br>
+            <button class="submit">Submit</button>
+            </div>
+
+            <div class="s3">Connect with us <br> <br> <br><br>
+            Facebook <br><br>
+            Instagarm <br><br>
+            Twitter <br><br>
+            Linkedin <br><br>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

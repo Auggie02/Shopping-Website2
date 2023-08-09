@@ -1,0 +1,42 @@
+#profile{
+    background-color: rgb(255, 165, 165);
+}
+.section1 .profile-img{
+border-radius: 100%;
+height: 20vh;
+width: 20vw;
+position: relative;
+left: 37%;
+margin: 61px;
+cursor: pointer;
+}
+td {
+    border: 4px solid black;
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#info {
+    display: flex;
+    justify-content: center;
+}
+.edit{
+    position: relative;
+    left: 50%;
+    height: 35px;
+    width: 69px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    background-color: transparent;
+    color: brown;
+}
+.edit:hover{
+    color: white;
+    background-color: rgba(243, 243, 243, 0.4);
+    width: 72px;
+    height: 38px;
+    cursor: pointer;
+    box-shadow: 1px 2px 15px white;
+    border-color: brown;
+}
